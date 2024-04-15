@@ -3,7 +3,7 @@ class Node:
         self.val = val
         self.next = None
 
-class MyQueue:
+class Queue:
     def __init__(self) -> None:
         self.head = None
         self.tail = None
@@ -32,8 +32,8 @@ class MyQueue:
 class MyStack:
 
     def __init__(self):
-        self.q1 = MyQueue()
-        self.q2 = MyQueue()
+        self.q1 = Queue()
+        self.q2 = Queue()
 
     def push(self, x: int) -> None:
         self.q1.push(x)

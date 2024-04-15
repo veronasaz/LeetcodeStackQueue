@@ -30,9 +30,6 @@ class Stack:
 class MyQueue:
 
     def __init__(self):
-        """
-        Initialize your data structure here.
-        """
         self.stack1 = Stack()
         self.stack2 = Stack()
 
